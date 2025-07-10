@@ -1,10 +1,17 @@
+import Routes from "./routes/Routes";
+import { ToastContainer } from "react-toastify";
+
 function App() {
+  const toastStyle = {
+    fontSize: '0.8rem'
+  };
 
   return (
     <>
-      <h1>Welcome to the React App</h1>
+      <ToastContainer style={toastStyle} />
+      <Routes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
