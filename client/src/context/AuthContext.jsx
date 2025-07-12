@@ -8,11 +8,16 @@ export const AuthProvider = ({ children }) => {
   const storedUser = localStorage.getItem('user')
 
   const [token, setToken] = useState(storedToken || null)
+
   const [user, setUser] = useState(() => {
     try {
-      return storedUser ? JSON.parse(storedUser) : null
+      if (storedUser && storedUser !== 'undefined') {
+        return JSON.parse(storedUser)
+      } else {
+        return null
+      }
     } catch (err) {
-      console.error("Invalid user JSON in localStorage:", err)
+      console.error('Invalid user JSON in localStorage:', err)
       localStorage.removeItem('user')
       return null
     }

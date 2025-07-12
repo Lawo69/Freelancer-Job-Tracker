@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import connectDB from './config/db.js'
 import userRoutes from './routes/authRoutes.js'
+import projectRoutes from './routes/projectRoutes.js'
 
 dotenv.config()
 connectDB()
@@ -17,6 +18,7 @@ app.use(cors({
 }))
 
 app.use('/api/auth', userRoutes)
+app.use('/api/projects', projectRoutes)
 
 app.get('/', (req, res) => res.send('API is running'))
 
