@@ -6,6 +6,7 @@ import { toast } from 'react-toastify'
 import { useAuth } from '../../hooks/useAuth'
 import { useNavigate } from 'react-router-dom'
 import { loginUser } from '../../api/auth'
+import { motion } from 'framer-motion'
 
 const Login = () => {
   const [email, setEmail] = useState('')
