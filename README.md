@@ -1,6 +1,6 @@
 # 🧑‍💻 Freelancer Job Tracker
 
-A full-stack job and project tracking app built for freelancers to manage clients, deadlines, and notes efficiently — with secure user authentication and protected routes.
+A full-stack job and project tracking app built for freelancers to manage projects — with secure user authentication and protected routes.
 
 ## 🚀 Features
 
