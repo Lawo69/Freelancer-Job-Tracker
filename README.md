@@ -48,23 +48,33 @@ freelancer-job-tracker/
 
 ### 2. 🔧 Backend Setup
 
-<pre> <code>```bash cd server
-npm install```</code> </pre>
+<pre> <code>
+bash cd server
+npm install
+</code> </pre>
 Create a .env file:
 
 Create a .env file
-<pre> <code>```bash PORT=5000
+<pre> <code>
+PORT=5000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret ```</code> </pre>
+JWT_SECRET=your_jwt_secret
+</code> </pre>
 
 Then start the backend:
 
-<pre> <code>```bash npm run dev ```</code> </pre>
+<pre> <code>
+npm run dev
+</code> </pre>
 API will run at: http://localhost:5000/api
 
 ### 4. 💻 Frontend Setup
 
-<pre> <code>```bash cd ../client npm install npm run dev ```</code> </pre>
+<pre> <code>
+cd ../client 
+npm install 
+npm run dev
+</code> </pre>
 Frontend will run at: http://localhost:5173
 
 ✅ How to Use
