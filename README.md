@@ -49,7 +49,7 @@ freelancer-job-tracker/
 ### 2. 🔧 Backend Setup
 
 <pre> <code>
-bash cd server
+cd server
 npm install
 </code> </pre>
 Create a .env file:
