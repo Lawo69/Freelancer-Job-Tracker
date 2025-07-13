@@ -71,7 +71,7 @@ API will run at: http://localhost:5000/api
 ### 4. 💻 Frontend Setup
 
 <pre> <code>
-cd ../client 
+cd client 
 npm install 
 npm run dev
 </code> </pre>
